@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>dvanced Search</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <a href="index.html" id="google">Google</a> 
+        <div id="subtitle">Advanced Search</div>
+        <div id="form">
+            <form action="https://www.google.com/search" method="get" id="advanced">
+            <p>Find pages with...</p>
+            <div class="line">
+                <div class="words">All of these words:</div>
+                <input type="text" name="as_q" class="input">
+                <div class="words-end">Insert key words.</div>
+            </div>
+            <div class="line">
+                <div class="words">This exact word or phrase:</div>
+                <input type="text" name="as_epq" class="input">
+                <div class="words-end">Insert key words in between quotes: "cat"</div>
+            </div>
+            <div class="line">
+                <div class="words">Any of these words:</div>
+                <input type="text" name="as_oq" class="input">
+                <div class="words-end">Insert OR between key words: "cat" OR "dog"</div>
+            </div>
+            <div class="line">
+                <div class="words">None of these words:</div>
+                <input type="text" name="as_eq" class="input">
+                <div class="words-end">Insert a - sign before key words: -"cat" -"dog"</div>
+            </div>
+            <input type="submit" value="Advanced Search" class="advanced-button">
+        </form>
+        </div>
+    </body>
+</html>
